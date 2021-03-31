@@ -29,6 +29,10 @@ async def Ahh(ctx):
     await ctx.send('https://tenor.com/view/zero-two-gif-20649457')
 
 @bot.command()
+async def confuse(ctx):
+    await ctx.send('https://tenor.com/view/zero-two-blink-anime-gif-14226163')
+
+@bot.command()
 async def info(ctx):
     embed = discord.Embed(title=f"Zero Two", description="Hola! Soy 002, mejor conocida cómo Zero Two"
     , color=discord.Color.from_rgb(237, 207, 207))
